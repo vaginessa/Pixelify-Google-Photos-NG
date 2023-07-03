@@ -122,7 +122,7 @@ object DeviceProps {
             "com.google.android.apps.photos.PIXEL_2024_PRELOAD",
         ),
 
-            Features("Pixel 2024 mid-year",
+        Features("Pixel 2024 mid-year",
             "com.google.android.feature.PIXEL_2024_MIDYEAR_EXPERIENCE",
             "com.google.android.apps.photos.PIXEL_2024_MIDYEAR_PRELOAD",
         ),
@@ -310,7 +310,7 @@ object DeviceProps {
                 Pair("ID", "RD2A.211001.002"),
                 Pair("FINGERPRINT", "google/barbet/barbet:11/RD2A.211001.002/7644766:user/release-keys"),
             ),
-            "Pixel",
+            "Pixel 2021 mid-year",
             getAndroidVersionFromLabel("R 11.0"),
         ),
 
