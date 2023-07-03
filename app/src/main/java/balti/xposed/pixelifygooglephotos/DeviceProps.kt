@@ -361,11 +361,11 @@ object DeviceProps {
     /**
      * Default name of device to spoof.
      */
-    val defaultDeviceName = "Pixel XL"
+    val defaultDeviceName = "Pixel 7 Pro"
 
     /**
      * Default feature level to spoof up to. Corresponds to what is expected for the device in [defaultDeviceName].
      */
-    val defaultFeatures = getFeaturesUpTo("Pixel 2016")
+    val defaultFeatures = getFeaturesUpTo("Pixel 2022")
 
 }
