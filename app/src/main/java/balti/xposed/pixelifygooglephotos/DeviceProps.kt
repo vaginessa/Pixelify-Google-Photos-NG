@@ -178,7 +178,7 @@ object DeviceProps {
         AndroidVersion("R 11.0", "11", 30),
         AndroidVersion("S 12.0", "12", 31),
         AndroidVersion("T 13.0", "13", 33),
-        AndroidVersion("UD 14.0", "14", 34),
+        AndroidVersion("U 14.0", "14", 34),
     )
 
     /**
@@ -364,13 +364,18 @@ object DeviceProps {
                 Pair("MANUFACTURER", "Google"),
                 Pair("DEVICE", "husky"),
                 Pair("PRODUCT", "husky"),
-                Pair("HARDWARE", "husky"),
+                Pair("HARDWARE", "Tensor G3"),
                 Pair("MODEL", "Pixel 8 Pro"),
                 Pair("ID", "UD1A.230803.041"),
+                Pair("DESCRIPTION", "husky-user 14 UD1A.230803.041 10808477 release-keys"),
                 Pair("FINGERPRINT", "google/husky/husky:14/UD1A.230803.041/10808477:user/release-keys"),
+                Pair("BOARD", "husky"),
+                Pair("PLATFORM", "zuma"),
+                Pair("BOOTLOADER", "ripcurrent-14.0-10807316"),
+                Pair("INCREMENTAL", "10808477"),
             ),
             "Pixel 2023 mid-year",
-            getAndroidVersionFromLabel("UD 14.0"),
+            getAndroidVersionFromLabel("U 14.0"),
         ),
     )
 
