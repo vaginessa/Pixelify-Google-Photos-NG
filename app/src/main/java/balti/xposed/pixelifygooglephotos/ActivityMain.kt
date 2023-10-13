@@ -142,7 +142,7 @@ class ActivityMain: AppCompatActivity(R.layout.activity_main) {
             pref?.edit()?.run {
                 putString(PREF_DEVICE_TO_SPOOF, DeviceProps.defaultDeviceName)
                 putBoolean(PREF_OVERRIDE_ROM_FEATURE_LEVELS, true)
-                putBoolean(PREF_STRICTLY_CHECK_GOOGLE_PHOTOS, true)
+                putBoolean(PREF_STRICTLY_CHECK_GOOGLE_PHOTOS, false)
                 putStringSet(
                     PREF_SPOOF_FEATURES_LIST,
                     DeviceProps.defaultFeatures.map { it.displayName }.toSet()
