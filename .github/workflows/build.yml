@@ -54,7 +54,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         tag_name: v${{ env.VERSION }}
-        release_name: Release ${{ env.VERSION }}
+        release_name: Pixelify Google Photos ${{ env.VERSION }}
         asset_files: ${{ github.workspace }}/app/build/outputs/apk/release/Pixelify-Google-Photos-${{ env.VERSION }}.apk
         draft: false
         prerelease: false
