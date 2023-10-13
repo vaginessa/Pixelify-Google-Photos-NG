@@ -51,10 +51,13 @@ jobs:
       id: create_release
       uses: actions/create-release@v1
       with:
-          tag_name: v${{ env.VERSION }}
-          release_name: Release ${{ env.VERSION }}
-          draft: false
-          prerelease: false
+        tag_name: v${{ env.VERSION }}
+        release_name: Release ${{ env.VERSION }}
+        draft: false
+        prerelease: false
+      env:
+        GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+
 
     - name: Upload APK to Release
       id: upload-release-asset
