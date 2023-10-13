@@ -49,21 +49,12 @@ jobs:
 
     - name: Create GitHub Release
       id: create_release
-      uses: actions/create-release@v1
+      uses: Hs1r1us/Release-AIO@v1.0
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         tag_name: v${{ env.VERSION }}
         release_name: Release ${{ env.VERSION }}
+        asset_files: ${{ github.workspace }}/app/build/outputs/apk/release/Pixelify-Google-Photos-${{ env.VERSION }}.apk
         draft: false
         prerelease: false
-      env:
-        GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-
-
-    - name: Upload APK to Release
-      id: upload-release-asset
-      uses: actions/upload-release-asset@v1
-      with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ${{ github.workspace }}/app/build/outputs/apk/release/Pixelify-Google-Photos-${{ env.VERSION }}.apk
-          asset_name: Pixelify-Google-Photos-${{ env.VERSION }}.apk
-          asset_content_type: application/vnd.android.package-archive
