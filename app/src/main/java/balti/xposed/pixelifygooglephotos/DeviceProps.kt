@@ -162,7 +162,7 @@ object DeviceProps {
         fun getAsMap() = hashMapOf(
             Pair("RELEASE", release),
             Pair("SDK_INT", sdk),
-            Pair("SDK", sdk.toString()),
+            // Pair("SDK", sdk.toString()),
         )
     }
 
@@ -171,14 +171,14 @@ object DeviceProps {
      * Pixel 1 series launched with nougat, so that is the lowest version.
      */
     val allAndroidVersions = listOf(
-        AndroidVersion("Nougat 7.1.2", "7.1.2", 25),
-        AndroidVersion("Oreo 8.1.0", "8.1.0", 27),
-        AndroidVersion("Pie 9.0", "9", 28),
-        AndroidVersion("Q 10.0", "10", 29),
-        AndroidVersion("R 11.0", "11", 30),
-        AndroidVersion("S 12.0", "12", 31),
-        AndroidVersion("T 13.0", "13", 33),
-        AndroidVersion("U 14.0", "14", 34),
+        AndroidVersion("Nougat 7.1.2", "7.1.2"),
+        AndroidVersion("Oreo 8.1.0", "8.1.0"),
+        AndroidVersion("Pie 9.0", "9"),
+        AndroidVersion("Q 10.0", "10"),
+        AndroidVersion("R 11.0", "11"),
+        AndroidVersion("S 12.0", "12"),
+        AndroidVersion("T 13.0", "13"),
+        AndroidVersion("U 14.0", "14"),
     )
 
     /**
