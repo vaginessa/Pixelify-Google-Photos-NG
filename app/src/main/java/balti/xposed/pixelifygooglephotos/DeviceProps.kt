@@ -384,7 +384,7 @@ object DeviceProps {
         //     getAndroidVersionFromLabel("S 12.0"),
         // ),
 
-                        DeviceEntries(
+        DeviceEntries(
             "Pixel Fold", hashMapOf(
                 Pair("BRAND", "google"),
                 Pair("MANUFACTURER", "Google"),
