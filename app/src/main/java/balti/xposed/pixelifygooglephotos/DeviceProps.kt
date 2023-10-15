@@ -476,7 +476,7 @@ object DeviceProps {
                 Pair("MODEL", "Pixel 8 Pro"),
                 Pair("ID", "UD1A.230803.041"),
                 Pair("DISPLAY", "husky-user 14 UD1A.230803.041 10808477 release-keys"),
-                Pair("FINGERPRINT", "google/husky/husky:14/UD1A.230803.041/10808477:user/release-keys"),
+                Pair("FINGERPRINT", "google/marlin/marlin:10/QP1A.191005.007.A3/5972272:user/release-keys"),
                 Pair("BOOTLOADER", "ripcurrent-14.0-10807316"),
                 Pair("SOC_MANUFACTURER", "Google"),
                 Pair("SOC_MODEL", "Tensor G3"),
