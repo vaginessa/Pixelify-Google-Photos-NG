@@ -217,7 +217,7 @@ object DeviceProps {
                 Pair("TYPE", "user"),
                 Pair("TAGS", "release-keys"),
             ),
-            "Pixel 2016",
+            "Pixel 2016 - Pixel XL (original quality)",
             getAndroidVersionFromLabel("Q 10.0"),
         ),
 
@@ -367,6 +367,6 @@ object DeviceProps {
     /**
      * Default feature level to spoof up to. Corresponds to what is expected for the device in [defaultDeviceName].
      */
-    val defaultFeatures = getFeaturesUpTo("Pixel 2016")
+    val defaultFeatures = getFeaturesUpTo("Pixel 2016 - Pixel XL (original quality)")
 
 }
