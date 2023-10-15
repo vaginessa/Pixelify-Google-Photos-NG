@@ -49,13 +49,13 @@ object DeviceProps {
      */
     val allFeatures = listOf(
 
-        Features("Pixel",
+        Features("Pixel Core",
             "com.google.android.feature.PIXEL_EXPERIENCE",
             "com.google.android.feature.GOOGLE_BUILD",
             "com.google.android.feature.GOOGLE_EXPERIENCE",
         ),
 
-        Features("Pixel 2016",
+        Features("Pixel 2016 - Pixel XL (original quality)",
             "com.google.android.apps.photos.NEXUS_PRELOAD",
             "com.google.android.apps.photos.nexus_preload",
             "com.google.android.apps.photos.PIXEL_PRELOAD",
@@ -84,57 +84,46 @@ object DeviceProps {
 
         Features("Pixel 2020",
             "com.google.android.feature.PIXEL_2020_EXPERIENCE",
-            "com.google.android.apps.photos.PIXEL_2020_PRELOAD",
         ),
 
         Features("Pixel 2020 mid-year",
             "com.google.android.feature.PIXEL_2020_MIDYEAR_EXPERIENCE",
-            "com.google.android.apps.photos.PIXEL_2020_MIDYEAR_PRELOAD",
         ),
 
         Features("Pixel 2021",
             "com.google.android.feature.PIXEL_2021_EXPERIENCE",
-            "com.google.android.apps.photos.PIXEL_2021_PRELOAD",
         ),
 
         Features("Pixel 2021 mid-year",
             "com.google.android.feature.PIXEL_2021_MIDYEAR_EXPERIENCE",
-            "com.google.android.apps.photos.PIXEL_2021_MIDYEAR_PRELOAD",
         ),
 
         Features("Pixel 2022",
             "com.google.android.feature.PIXEL_2022_EXPERIENCE",
-            "com.google.android.apps.photos.PIXEL_2022_PRELOAD",
         ),
 
         Features("Pixel 2022 mid-year",
             "com.google.android.feature.PIXEL_2022_MIDYEAR_EXPERIENCE",
-            "com.google.android.apps.photos.PIXEL_2022_MIDYEAR_PRELOAD",
         ),
 
         Features("Pixel 2023",
             "com.google.android.feature.PIXEL_2023_EXPERIENCE",
-            "com.google.android.apps.photos.PIXEL_2023_PRELOAD",
         ),
 
         Features("Pixel 2023 mid-year",
             "com.google.android.feature.PIXEL_2023_MIDYEAR_EXPERIENCE",
-            "com.google.android.apps.photos.PIXEL_2023_MIDYEAR_PRELOAD",
         ),
 
         Features("Pixel Tablet 2023",
             "com.google.android.feature.PIXEL_TABLET_2023_EXPERIENCE",
-            "com.google.android.apps.photos.PIXEL_TABLET_2023_EXPERIENCE",
         ),
 
         Features("Pixel 2024",
             "com.google.android.feature.PIXEL_2024_EXPERIENCE",
-            "com.google.android.apps.photos.PIXEL_2024_PRELOAD",
         ),
 
         Features("Pixel 2024 mid-year",
             "com.google.android.feature.PIXEL_2024_MIDYEAR_EXPERIENCE",
-            "com.google.android.apps.photos.PIXEL_2024_MIDYEAR_PRELOAD",
         ),
     )
 
