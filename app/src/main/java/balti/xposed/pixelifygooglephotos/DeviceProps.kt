@@ -62,31 +62,25 @@ object DeviceProps {
             "com.google.android.apps.photos.PIXEL_2016_PRELOAD",
         ),
 
-        Features("Pixel 2017",
+        Features("Pixel 2017 - Pixel 2",
             "com.google.android.feature.PIXEL_2017_EXPERIENCE",
             "com.google.android.apps.photos.PIXEL_2017_PRELOAD",
         ),
 
-        Features("Pixel 2018",
+        Features("Pixel 2018 - Pixel 3",
             "com.google.android.feature.PIXEL_2018_EXPERIENCE",
             "com.google.android.apps.photos.PIXEL_2018_PRELOAD",
         ),
 
-        Features("Pixel 2019",
+        Features("Pixel 2019 - Pixel 4",
             "com.google.android.feature.PIXEL_2019_EXPERIENCE",
             "com.google.android.apps.photos.PIXEL_2019_PRELOAD",
-        ),
-
-        Features("Pixel 2019 mid-year",
             "com.google.android.feature.PIXEL_2019_MIDYEAR_EXPERIENCE",
             "com.google.android.apps.photos.PIXEL_2019_MIDYEAR_PRELOAD",
         ),
 
-        Features("Pixel 2020",
+        Features("Pixel 2020 - Pixel 5 (Storage saver quality)",
             "com.google.android.feature.PIXEL_2020_EXPERIENCE",
-        ),
-
-        Features("Pixel 2020 mid-year",
             "com.google.android.feature.PIXEL_2020_MIDYEAR_EXPERIENCE",
         ),
 
@@ -236,12 +230,12 @@ object DeviceProps {
                 Pair("TYPE", "user"),
                 Pair("TAGS", "release-keys"),
             ),
-            "Pixel 2020 mid-year",
+            "Pixel 2020 - Pixel 5 (Storage saver quality)",
             getAndroidVersionFromLabel("T 13.0"),
         ),
 
         DeviceEntries(
-            "Pixel Fold", hashMapOf(
+            "Pixel Fold (wip)", hashMapOf(
                 Pair("BRAND", "google"),
                 Pair("MANUFACTURER", "Google"),
                 Pair("DEVICE", "felix"),
@@ -260,7 +254,7 @@ object DeviceProps {
         ),
 
         DeviceEntries(
-            "Pixel Tablet", hashMapOf(
+            "Pixel Tablet (wip)", hashMapOf(
                 Pair("BRAND", "google"),
                 Pair("MANUFACTURER", "Google"),
                 Pair("DEVICE", "tangorpro"),
@@ -279,7 +273,7 @@ object DeviceProps {
         ),
 
         DeviceEntries(
-            "Pixel 7 Pro (Google One VPN)", hashMapOf(
+            "Pixel 7 Pro (Only for Google One VPN)", hashMapOf(
                 Pair("BRAND", "google"),
                 Pair("MANUFACTURER", "Google"),
                 Pair("DEVICE", "cheetah"),
@@ -292,8 +286,8 @@ object DeviceProps {
                 Pair("FINGERPRINT", "google/cheetah/cheetah:13/TQ3A.230901.001.C2/10753682:user/release-keys"),
                 Pair("TYPE", "user"),
                 Pair("TAGS", "release-keys"),
-                // Pair("SOC_MANUFACTURER", "Google"),
-                // Pair("SOC_MODEL", "GS201"),
+                Pair("SOC_MANUFACTURER", "Google"),
+                Pair("SOC_MODEL", "GS201"),
             ),
             "Pixel 2022 mid-year",
             getAndroidVersionFromLabel("T 13.0"),
@@ -313,9 +307,9 @@ object DeviceProps {
                 Pair("FINGERPRINT", "google/shiba/shiba:14/UD1A.230803.041/10808477:user/release-keys"),
                 Pair("TYPE", "user"),
                 Pair("TAGS", "release-keys"),
-                // Pair("BOOTLOADER", "ripcurrent-14.0-10807316"),
-                // Pair("SOC_MANUFACTURER", "Google"),
-                // Pair("SOC_MODEL", "Tensor G3"),
+                Pair("BOOTLOADER", "ripcurrent-14.0-10807316"),
+                Pair("SOC_MANUFACTURER", "Google"),
+                Pair("SOC_MODEL", "Tensor G3"),
             ),
             "Pixel 2023 mid-year",
             getAndroidVersionFromLabel("U 14.0"),
@@ -335,9 +329,9 @@ object DeviceProps {
                 Pair("FINGERPRINT", "google/husky/husky:14/UD1A.230803.041/10808477:user/release-keys"),
                 Pair("TYPE", "user"),
                 Pair("TAGS", "release-keys"),
-                // Pair("BOOTLOADER", "ripcurrent-14.0-10807316"),
-                // Pair("SOC_MANUFACTURER", "Google"),
-                // Pair("SOC_MODEL", "Tensor G3"),
+                Pair("BOOTLOADER", "ripcurrent-14.0-10807316"),
+                Pair("SOC_MANUFACTURER", "Google"),
+                Pair("SOC_MODEL", "Tensor G3"),
             ),
             "Pixel 2023 mid-year",
             getAndroidVersionFromLabel("U 14.0"),
